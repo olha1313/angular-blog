@@ -3,9 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 import { Environment } from './interface';
+import { firebaseKey } from '../../api-keys';
 export const environment: Environment = {
   production: false,
-  apiKey: 'AIzaSyA4NLyrBCdKqv5nhL4Yj7zck3VGjNpFd1Y'
+  apiKey: firebaseKey
 };
 
 /*
