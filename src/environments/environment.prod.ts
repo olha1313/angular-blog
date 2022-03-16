@@ -1,7 +1,6 @@
 import { Environment } from './interface';
-import { firebaseKey } from '../../api-keys';
 
 export const environment: Environment = {
   production: true,
-  apiKey: firebaseKey
+  apiKey: 'AIzaSyA4NLyrBCdKqv5nhL4Yj7zck3VGjNpFd1Y'
 };
