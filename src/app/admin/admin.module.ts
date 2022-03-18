@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { AuthService } from './shared/services/auth.service';
 import { AdminLayoutComponent } from './shared/components/admin-layout/admin-layout.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { DashboadPageComponent } from './dashboad-page/dashboad-page.component';
@@ -33,7 +32,7 @@ import { AuthGuard } from './shared/services/auth.guard';
 	exports: [
 		RouterModule
 	],
-	providers: [AuthService, AuthGuard]
+	providers: [AuthGuard]
 })
 export class AdminModule {
 
