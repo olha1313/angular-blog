@@ -17,7 +17,7 @@ export class AuthService {
 			return null;
 		}
 
-		return localStorage.getItem('tb-token');
+		return localStorage.getItem('fb-token');
 	}
 
 	public login(user: User): Observable<any> {
