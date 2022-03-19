@@ -1,4 +1,4 @@
-import { NgModule, Provider } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule, Provider } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -31,6 +31,7 @@ const INTERCEPTOR_PROVIDER: Provider = {
     SharedModule
   ],
   providers: [INTERCEPTOR_PROVIDER],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
 })
 export class AppModule { }

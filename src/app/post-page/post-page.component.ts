@@ -6,10 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./post-page.component.scss']
 })
 export class PostPageComponent implements OnInit {
-
   constructor() { }
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
